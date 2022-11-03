@@ -1,0 +1,18 @@
+Cisco Packet Tracker
+When we open the packet tracker, the interface will consist of: menu bar, maintool box, common tools bar, logical/physical workspace and navigation bar, workspace, 
+real time/simulation bar, network component box, device - type selection box, device - specific selection box, user created and packet window.
+Menu: has basic commands like open, save, print, etc. 
+Menutool bar: shortcut icons to file and edit menu commands, copy, paste, undo, drawing, pallette, etc.
+First we can take devices from the device - type selection box and insert the devices we want.
+IP: 10.0.0.X
+Subnet: 255.0.0.0 - 32 bits, first 8 bits for host, 24 bits for network (fast ethernet)
+We use copper crossover or copper straight only - basic
+red - wrong connection
+amber - (little delay) switch
+green - correct connection, ready to connect
+simulation mode - add simple PDU and autocapture
+First we add a node(generic) then add a server - both are under the device - type selection box
+Click on device and under configuration list set PP and Subnet then connect using copper crossover wire, shows 2 green lights on both the ends
+Add simple PDU and autocapture to transfer 
+Save the file
+Don't use direct speed
