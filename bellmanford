@@ -45,7 +45,7 @@ int main()
         printf("\nfor router %d",i+1);
         for(j=0;j<nodes;j++)
         {
-            printf("\t\nnode %d vis %d distance%d",j+1,rt[i].from[j]+1,rt[i].dist[j]);
+            printf("\t\nnode %d via %d distance %d",j+1,rt[i].from[j]+1,rt[i].dist[j]);
         }
     }
     printf("\n\n");
